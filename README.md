@@ -9,6 +9,7 @@ process a CSV file (comma-separated values) with the field names in
 the first line of the file. The `JT_FlatFile` package supports you
 here.
 
+[![Watch the video](https://img.youtube.com/vi/74jNGZo2r3A/hqdefault.jpg)](https://youtu.be/74jNGZo2r3A)
 
 ## Services
 
