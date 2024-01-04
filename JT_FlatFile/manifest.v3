@@ -11,8 +11,10 @@
     <null name="jt.flatFile.impl.startStop:stop"/>
   </record>
   <null name="replication_services"/>
-  <null name="requires"/>
-  <null name="listACL"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmFlatFile">*.*</value>
+  </record>
+  <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
   <null name="build"/>
