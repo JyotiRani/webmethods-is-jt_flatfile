@@ -31,6 +31,8 @@ The package comes with the following services:
 - `jt.flatFile.pub.read:removeFirstLineFromString`\
   Like the `jt.flatFile.pub.read:removeFirstLineFromStream` service
   but for working on strings.
+- `jt.flatFile.pub.read:removeRecordAndSegmentIds`\
+  Remove record and segment IDs that are return by `convertToValues`.
 
 ## Examples
 

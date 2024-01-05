@@ -186,5 +186,56 @@ public final class read
 
                 
 	}
+
+
+
+	public static final void removeRecordAndSegmentIds (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(removeRecordAndSegmentIds)>> ---
+		// @sigtype java 3.5
+		// [i] record:0:optional ffRecord
+		// [i] record:1:optional ffRecordList
+		// [o] record:0:optional ffRecord
+		// [o] record:1:optional ffRecordList
+		// pipeline
+		IDataCursor pipelineCursor = pipeline.getCursor();
+		
+		// ffRecord
+		IData	ffRecord = IDataUtil.getIData( pipelineCursor, "ffRecord" );
+		if ( ffRecord != null) {
+			removeFields(ffRecord);
+		}
+		
+		// ffRecordList
+		IData[]	ffRecordList = IDataUtil.getIDataArray( pipelineCursor, "ffRecordList" );
+		if ( ffRecordList != null) {
+			for ( int i = 0; i < ffRecordList.length; i++ ) {
+				removeFields(ffRecordList[i]);
+			}
+		}
+		pipelineCursor.destroy();
+			
+			
+		// --- <<IS-END>> ---
+
+                
+	}
+
+	// --- <<IS-START-SHARED>> ---
+	
+	public static final String KEY_RECORD_ID = "@record-id"; 
+	public static final String KEY_SEGMENT_ID = "@segment-id";
+	public static final String KEY_DELIMITERS = "@delimiters";
+	
+	private static void removeFields(IData ffRecord) {
+		IDataCursor idc = ffRecord.getCursor();
+		IDataUtil.remove(idc, KEY_RECORD_ID);
+		IDataUtil.remove(idc, KEY_SEGMENT_ID);
+		IDataUtil.remove(idc, KEY_DELIMITERS);
+		idc.destroy();
+	}
+		
+	// --- <<IS-END-SHARED>> ---
 }
 
