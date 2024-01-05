@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">removeRecordAndSegmentIds</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQoNCi8vIGZmUmVjb3JkDQpJRGF0YQlmZlJlY29yZCA9IElEYXRhVXRpbC5nZXRJRGF0
+YSggcGlwZWxpbmVDdXJzb3IsICJmZlJlY29yZCIgKTsNCmlmICggZmZSZWNvcmQgIT0gbnVsbCkg
+ew0KCXJlbW92ZUZpZWxkcyhmZlJlY29yZCk7DQp9DQoNCi8vIGZmUmVjb3JkTGlzdA0KSURhdGFb
+XQlmZlJlY29yZExpc3QgPSBJRGF0YVV0aWwuZ2V0SURhdGFBcnJheSggcGlwZWxpbmVDdXJzb3Is
+ICJmZlJlY29yZExpc3QiICk7DQppZiAoIGZmUmVjb3JkTGlzdCAhPSBudWxsKSB7DQoJZm9yICgg
+aW50IGkgPSAwOyBpIDwgZmZSZWNvcmRMaXN0Lmxlbmd0aDsgaSsrICkgew0KCQlyZW1vdmVGaWVs
+ZHMoZmZSZWNvcmRMaXN0W2ldKTsNCgl9DQp9DQpwaXBlbGluZUN1cnNvci5kZXN0cm95KCk7DQoJ
+DQoJ</value>
+</Values>
