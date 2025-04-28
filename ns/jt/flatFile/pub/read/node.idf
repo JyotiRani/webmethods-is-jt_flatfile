@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">jt.flatFile.pub.read</value>
+  <value name="node_pkg">JT_FlatFile</value>
+  <value name="is_public">false</value>
+  <value name="shared">CnB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEtFWV9SRUNPUkRfSUQgPSAiQHJlY29yZC1pZCI7
+IApwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBLRVlfU0VHTUVOVF9JRCA9ICJAc2VnbWVudC1p
+ZCI7CnB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEtFWV9ERUxJTUlURVJTID0gIkBkZWxpbWl0
+ZXJzIjsKCnByaXZhdGUgc3RhdGljIHZvaWQgcmVtb3ZlRmllbGRzKElEYXRhIGZmUmVjb3JkKSB7
+CglJRGF0YUN1cnNvciBpZGMgPSBmZlJlY29yZC5nZXRDdXJzb3IoKTsKCUlEYXRhVXRpbC5yZW1v
+dmUoaWRjLCBLRVlfUkVDT1JEX0lEKTsKCUlEYXRhVXRpbC5yZW1vdmUoaWRjLCBLRVlfU0VHTUVO
+VF9JRCk7CglJRGF0YVV0aWwucmVtb3ZlKGlkYywgS0VZX0RFTElNSVRFUlMpOwoJaWRjLmRlc3Ry
+b3koKTsKfQoJ</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.BufferedInputStream</value>
+    <value>java.io.BufferedReader</value>
+    <value>java.io.FileInputStream</value>
+    <value>java.io.IOException</value>
+    <value>java.io.InputStream</value>
+    <value>java.io.InputStreamReader</value>
+    <value>com.wm.data.IData</value>
+    <value>com.wm.data.IDataCursor</value>
+    <value>com.wm.data.IDataUtil</value>
+  </array>
+</Values>
